@@ -1,0 +1,18 @@
+/* CSS */
+:root { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  :root { font-family: 'Inter var', sans-serif; }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  color: dodgerblue;
+  text-decoration: none;
+}
+
+ul{
+  list-style-position: inside;
+}
